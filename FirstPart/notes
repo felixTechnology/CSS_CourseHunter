@@ -1,0 +1,29 @@
+1. To create an element we open and close the element (EXAMPLE: <div></div)
+2. To produce couple of div tags you go by (div*5), assuming you want 5 of that
+3. to get a child element from a parent element ( Example: div>h1) and press enter
+4. How to create element with attributes ,like ID or CLASS ( h1.heading), h1 is the element and heading is the class name
+
+What is CSS - Cascading Style Sheet
+-Means to create rules that specifies how HTM element should appear
+-Content of each workpage is created using HTML and it is required because HTML browsers cant physically display workpage
+
+
+CSS SYNTAX
+----------
+
+h3{
+   background-color: blue;
+   color: white;
+}
+
+1. h3 is selector, this is html element used as selector
+2. we have curly braces
+3. Properties & Values , inside the curly braces
+
+HTML Elements TREE
+------------------
+
+<HTML> -> (Head, Body)
+<HEAD> -> (title, meta)
+<BODY> -> (<p>, <ul>, <h1>)
+<UL> -> (<li>, <li>, <li>)

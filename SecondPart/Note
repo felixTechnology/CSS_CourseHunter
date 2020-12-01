@@ -1,0 +1,41 @@
+PRECEDENTS OF SELECTORS
+---------------------------
+Execution of CSS code happens line by line from top to buttom .
+
+- You will notice the (ul>li) has different property values, the new one will over write the previous one
+- You will notice (li) which is a child element has yellow color, but tat wont take effect. The (ul>li) green will over-write the
+   two because (ul>li> is specific and based on precedence .
+
+<style>
+        h1, h2{
+            color: green;
+        }
+
+         ul li{
+             color: red;
+         }
+
+          ul li{
+            color: green;
+          }
+
+          li{
+             color: yellow;
+          }
+ </style>
+
+
+ <body>
+     <h1>Heading 1</h1>
+     <h2>Heading 2</h2>
+
+
+     <ul>
+         <li>HTML 5</li>
+         <li>CCS 3</li>
+     </ul>
+ </body>
+
+ *8***********************************************************************************************************************
+
+1. Selecting element using class attribute has the higher precedence than selecting them using element names 
