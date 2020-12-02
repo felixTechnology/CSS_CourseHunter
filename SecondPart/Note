@@ -64,3 +64,122 @@ EXAMPLE 2:
 
     <input type="email">
 
+*************************************************************************************************************************************************************************
+
+CSS COMBINATORS:
+-----------------
+They defines the relationship between selectors .There are four different types of COMBINATORS
+A. Decedent selector, which is expressed by SPACE
+Matches all decendent elements of specified elements
+
+EXAMPLE:
+------
+<section>
+      <p> Paragraph 1 </p>
+      <h1>Heading</h1>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3 </p>
+
+      <div>
+        <p>Nested Paragraph </p>
+       </div>
+
+       <p> Paragraph 4 </p>
+       <p> Paragraph 5 </p>
+</section>
+
+1. Above , we have html section elements ,with paragraph with padding inside sectional element ,and we have divider, inside the section which wraps another paragraph.
+2.In case of this combinator, if we use the ff style
+
+section p{
+
+     background-color: red;
+}
+
+In case of combinator if we use the style above the background color will apply the entire p-element, including the NESTED Paragraph in the div.
+
+B. Child Combinators -
+   This is expressed using the greater tgan sign (>). Child combinators select all immediate children of specified elements
+- If we using child selector for the below example ,background color will be changed for all p-elements except for ,NESTED-PARAGRAPH ,
+   because it is not immediate child of section element
+
+   EXAMPLE
+   -------------
+
+   section > p{
+
+        background-color: red;
+   }
+
+
+<section>
+      <p> Paragraph 1 </p>
+      <h1>Heading</h1>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3 </p>
+
+      <div>
+        <p>Nested Paragraph </p>
+       </div>
+
+       <p> Paragraph 4 </p>
+       <p> Paragraph 5 </p>
+</section>
+
+C. ADJACENT SIBLING (+)
+----------------------
+This is expressed using the plus (+) sign and it select immediately following siblings or specified elements
+It means elements should be placed on same level of the HTML TREE and they should have same power as well
+
+
+EXAMPLE
+--------
+
+        h1 + p{
+
+            background-color: yellow;
+        }
+
+<section>
+      <p> Paragraph 1 </p>
+      <h1>Heading</h1>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3 </p>
+
+      <div>
+        <p>Nested Paragraph </p>
+       </div>
+
+       <p> Paragraph 4 </p>
+       <p> Paragraph 5 </p>
+</section>
+
+
+C: General Sibling Selector (~)
+    This is expressed by the tilda sign. and it selects all siblins placed after specified element
+
+     - the background will be changed for all paragraphs which is placed after heading element,except for NESTED Paragraph
+
+   EXAMPLE
+   -------
+
+
+        h1 ~ p{
+
+            background-color: yellow;
+        }
+
+
+   <section>
+         <p> Paragraph 1 </p>
+         <h1>Heading</h1>
+         <p>Paragraph 2</p>
+         <p>Paragraph 3 </p>
+
+         <div>
+           <p>Nested Paragraph </p>
+          </div>
+
+          <p> Paragraph 4 </p>
+          <p> Paragraph 5 </p>
+   </section>

@@ -39,6 +39,24 @@
         }
 
         input[type="email"] {background-color: orange}
+
+        section p{
+
+            background-color: red;
+        }
+
+        section > p{
+
+            background-color: green;
+        }
+
+
+        h1 + p{
+
+            background-color: yellow;
+        }
+
+
     </style>
 
 
@@ -61,5 +79,19 @@
     <input type="text">
 
     <input type="email">
+
+    <section>
+        <p> Paragraph 1 </p>
+        <h1>Heading</h1>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3 </p>
+
+        <div>
+            <p>Nested Paragraph </p>
+        </div>
+
+        <p> Paragraph 4 </p>
+        <p> Paragraph 5 </p>
+    </section>
 </body>
 </html>
