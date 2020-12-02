@@ -1,0 +1,49 @@
+1.change paragraph text -by default it is 16px, so when you use 16px you wont see the change unless higher value.
+2. font-size: 25px, is an absolute measurement unit pixels .
+ - There are relative measurement unit like, rem, %,
+
+3. text-align:
+- It allows us to change position of text, it has four main values (left,right,center,justify)
+-by default the property of, text-align, is set as left. So if you assing it (text-align:left;) nothing will be changed
+- In case of right text will be placed on right side (text-align:right;)
+-In case of right text will be placed on right side (text-align:centre;)
+-In case of justify text will be placed at end-to-end of page without leaving margin(space) at both right & left edge of the page (text-align: justify;)
+-In case of justify-all text will be placed at end-left of page without leaving margin(space) but will leave a default margin at the right  (text-align: justify-all;)
+
+NOTE:
+
+-By default Paragraph <p></p> is example of block-level element , and text-align property works with block level elements
+
+Block-level element takeup full width that is available on the page
+
+In-line element, they take up width that is required to display content of an element;
+
+-In other to transform Paragraph to (in-line element), we have property called (display: in-line)
+- Note that, text-align, property doesnt work on, in-line element (EX: text-align: right) wont work on in-line element
+  but to manipulate the position of paragraph by using it parent paragraph (<div></div>)
+
+
+
+EXAMPLE:
+
+p{
+            background-color: #78a178;
+            color: white;
+            font-size: 25px;
+            text-align:right;
+
+  }
+
+<body>
+        //<p>Lorem ipsum dolor sit.</p>//
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Cupiditate, delectus deleniti eaque fugit ipsum modi
+                    nulla provident recusandae unde voluptate. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Accusamus cupiditate ducimus explicabo?
+                </p>
+        </body>
+</body>
+
+
+
