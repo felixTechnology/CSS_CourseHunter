@@ -46,4 +46,40 @@ p{
 </body>
 
 
+******************************************************************************************************************************
+FONT-FAMILY
+------------
+In CSS we have two types of font-family name with similar look ,
 
+Note that by default font-family is set as times-new-romans
+
+1.Generic Family -- which is a group of font family
+
+EXAMPLES
+----------
+- (Serif, example: Times New Roman, Georgia), has small lines at the end of some characters
+- (Sans-Serif, Example: Helvetica, Verdana) , it's similar to Serif but without any line at the name of characters
+-  (Cursive, EXAMPLE: Brush Script, Mistral)
+- (Monospace, EXAMPLE: Courier New, Lucida Bright), all characters have the same root
+- (Fantasy)
+
+2. Font Family
+-Defines specific of font family
+
+
+3. Using google font
+- Go to google font website (https://fonts.google.com/)
+- This search to look for the preferred font
+- click on the result of your font search
+- click on plus icon
+- copy the link and add it to your html head
+- And copy the font family property and add to your css family
+https://fonts.google.com/
+https://fonts.google.com/specimen/Montserrat
+
+- To use the import style copy the import without the style tag and paste in your css file. Assuming you want to paste in your head tag
+  add the style tag and paste it in it
+
+4. We have properties like (font-weight) 0 describes thickness of characters
+
+and (font-style)
