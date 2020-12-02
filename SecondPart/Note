@@ -38,4 +38,29 @@ Execution of CSS code happens line by line from top to buttom .
 
  *8***********************************************************************************************************************
 
-1. Selecting element using class attribute has the higher precedence than selecting them using element names 
+1. Selecting element using class attribute has the higher precedence than selecting them using element names.
+2. ID element works with multiple elements simultaneously but in a real-world it is recommended to use ID attribute with one element and Class attributes with several elements
+3. ID attributes has the highest precedence than any other selector
+4.Styling using Class attributes has higher precedence than styling using elements names
+5.Styling element with parent element has higher precedence than styling with element name
+6.ID selector has highest precedence than all of them (element name and class selector)
+
+Note: that the below example the ID has highest precedence than the class selector so in styling the ID selector will over write that of class.
+EXAMPLE: <ul>
+           <li id='list-item' class='item'>HTML</li>
+           <li id='list-item' class='item'></li>
+       </ul>
+
+
+
+EXAMPLE 2:
+----------
+1. If we want to use same styles for both input elements we can either ,assign to them same class ,and select them and style
+2.  Or we can use input tag name
+3. If we want to  style for one of the input then we can use ID or CLASS attributes and style
+4.Or we use TYPE ATTRIBUTES , input[type="email"] {background-color: orange},
+
+    <input type="text">
+
+    <input type="email">
+
