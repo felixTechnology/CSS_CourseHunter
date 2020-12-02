@@ -1,0 +1,31 @@
+There are multiples ways to choose colours for webpages.
+
+1. Indicate the color name (
+example :
+background-color: red;
+background-color: yellow;
+background-color: blue;
+
+NOTE: Our browsers support 140 standard colour names
+
+2. Using rgb() values, it stands for RED GREEN BLUE, which consist three color values
+
+rgb(255, 0, 0) will give you red
+rgb(0, 255, 0) will give you GREEN
+rgb(0, 0, 255 ) will give you BLUE
+rgb(255, 255, 255) will give you WHITE
+- Each value defines the intensity of the color between 0 to 255
+
+IN CSS3 version it specifies the opacity for colors and the method is called, rgba()
+-the argument range should be 0 to 1
+
+rgb (255,0,0)  RED
+rgba(255,0,0,0.5) RED but will have the red colour decreased to opacity twice the color
+
+3. Using the Hexadecimal values
+
+#ff0000 - RED
+#00ff00: green;
+#0000ff- blue
+#ffffff -white , it has the  highest intensity
+#000000 - black, has the lowest intensity
