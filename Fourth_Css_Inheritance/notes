@@ -1,0 +1,32 @@
+The term inheritance describes relationship between parent and child element
+-In CSS each child inherit styles from it parent element
+- In the example below the elements h1 and p will take the color of parent element body.
+- the div take now take precedence over the body tag because that is the immediate parent of the child elements
+- The h1 will take it own color because he is specific to its element
+
+EXAMPLE
+--------
+
+<style>
+
+body{
+      color: red;
+   }
+
+   div{
+      color: blue;
+   }
+
+   h1{
+      color: green;
+   }
+
+
+ </style>
+<body>
+
+  <div>
+      <h1>Heading</h1>
+      <p>Paragraph </p>
+  </div>
+</body>
