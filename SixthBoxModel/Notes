@@ -1,0 +1,24 @@
+1. Generally all HTML can be considered as Boxes
+-It consist of four different parts of boxes - Outer box to Inner Box
+
+a. Outer Box is (Margin)
+b. first Inner Box is (Border)
+c. Second Inner (Padding)
+d. And central (Inner)
+
+Content:
+--------
+Content of elements could be (Text) or (Images). We are able to manage it size using (Width) & (Height).
+
+Padding
+--------
+This create an area around (content) and it's transparent . It is followed by
+
+Border
+------
+This goes around (CONTENT) & (PADDING) .It is kind of wrapper for the by default border is invicible but we can define its style
+(WIDTH) & (COLOR) Using CSS Properties
+
+MARGIN
+-------
+This clears an area outside the Border like MARGIN,PADDING is also transparent

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        h1{
+           /* border-width: 10px;
+            border-style: solid;
+            border-color: #f00;*/
+            border: 5px #f00 solid;
+            /*padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 70px;
+            padding-left: 90px;*/
+            padding: 30px 50px 70px 90px;
+
+            /*margin-top: 100px;
+            margin-right: 50px;
+            margin-bottom: 150px;
+            margin-left: 200px;*/
+            /*margin: 100px 50px 150px 200px;*/
+            /*margin: 100px  200px;*/
+            margin: 100px auto;
+            width: 300px;
+            height: 300px;
+            /*box-sizing: content-box;*/
+
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+     <!--this is h1 header element with content (Box Model)-->
+     <!--Here will be targeting the POST-ROUTE n the Admin File in ROUTES FOLDER-->
+     <!--There two forms of elements available in HTML (BLOCK element) & ( INLINE element) Block element
+         take up full-width of what is available & INLINE element take up width that is required to takeup content of an element
+         -In this case <h1></h1> is block level element , so if you hover on the content part at INSPECT BROWSER Element
+           you notice it takes full width of the page
+         - by default (h1) has *margin) on TOP and BUTTOM value , and you can check about the default style values of (h1) using browser
+           inspect element
+         - Remove the defualt body margin (8px) and by setting it to (margin: 0)
+         -Before dealing with PADDING & MARGIN, let create for (border) for the (h1) element,to help us see how the margin properties work
+         -In other to use width for Border we use a Property called Border-width (Example: border-width: 5px) ,and note that pixels is ABSOLUTE measure. Absolute means it's
+          not related to other factors
+
+          B: Box-sizing defines how WIDTH AND HEIGHT OF an element is calculated
+            - the value of (box-sizing is content-box) OR ( box-sizing is border-box)
+            -in this case PADDING AND BORDER are not included in the element total WIDTH AND HEIGHT
+            -With ( box-sizing is border-box) the element will be included with the WIDTH AND HEIGHT
+        C. One more value of MARGIN property which is used when ypu want to center perfectly BLOCL-LEVEL ELEMENt, we can use (width) and (margin auto)
+
+     -->
+     <h1>Box Model </h1>
+</body>
+</html>
