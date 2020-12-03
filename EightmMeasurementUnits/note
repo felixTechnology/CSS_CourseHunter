@@ -1,0 +1,19 @@
+Measurement Units in CSS
+-width
+-Height
+-Margin
+-Padding, etc
+
+In general CSS SUPPORT TWO KIND OF UNITS
+
+1. Absolute Unit - They are fixed United , for example if you assign Property like 200px it means you need to have this measurement
+                   no matter what
+   Example: Pixel(px), Centimeter (cm), Millimeter(mm), Inch(in), Points(pt), Pica(pc)
+
+   1px = 1/96th of 1in
+   1in = 2.54cm
+
+
+2. Relative Unit - This specifies length relative to another property. It means that relative units scaled better between different rendering mediums
+
+(rem,em,vw,vh,%)
