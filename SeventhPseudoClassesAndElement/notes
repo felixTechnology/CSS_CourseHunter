@@ -1,0 +1,5 @@
+A. Pseudo Class defines special state of an element , it helps to make our webpage dynamic
+-syntactically they follow the element by a call as for pseudo elements that define. (EXAMPLE: a:hover)
+
+B. Pseudo Elements, define a style for specific part of an element
+-using them we are able to create additional content for elements and also style them (Example: h1:::after)
